@@ -1,17 +1,15 @@
 #Union de conjuntos 
 #Se crea conjunto mediante llaves o funcion set 
-multiplos3= set(range(3,32,3))
+multiplos3= set(range(3,31,3))
 multiplos4= set(range(4,41,4))
 multiplos5= set(range(5,51,5))
-
-print(multiplos5)
 
 #Permite la union de dos conjuntos tomando los  valores sin repetir. 
 union1 = multiplos3.union(multiplos4)
 union2 = multiplos3 | multiplos4 | multiplos5
 
-print(union1)
-print(union2)
+print("\nUnion 1 es: ",union1)
+print("\nUnion 2 es: ",union2)
 
 #Ejercicios 
 
@@ -35,8 +33,6 @@ Punto3 = {"celulares", "lavadoras", "aireacondicionado", "microondas"}
 
 Ventas_de_empresa = Punto1|Punto2|Punto3 
 
-print("^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^")
-
-print(Ventas_de_empresa)
+print("\nElectrodosmeticos y aparatos electronicos vendidos por la empresa: \n",Ventas_de_empresa, "\n")
 
 
