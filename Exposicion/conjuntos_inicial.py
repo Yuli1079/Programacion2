@@ -26,6 +26,11 @@ conjunto.discard(2) # con este puedo remorer un elemento (existente) no error
 
 print(conjunto)
 
+<<<<<<< HEAD
+=======
+#print(5 in conjunto) # comprobar elementos del conjunto
+
+>>>>>>> 13271713ca63e93050c1d922bec84df35ee1a2c1
 
 #conjunto.clear() # limpar el conjunto
 #print(conjunto) 

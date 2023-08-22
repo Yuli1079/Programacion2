@@ -41,4 +41,3 @@ for Conjunto in Datos_conjunto:
     verificacion = Conjunto.issubset(C_empresa)
     print("\n El conjunto", Conjunto, "es subconjunto de C_empresa:", verificacion)
 
-# Fin del codigo 
