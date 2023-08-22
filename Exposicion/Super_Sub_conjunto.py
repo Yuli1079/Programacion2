@@ -39,4 +39,6 @@ Datos_conjunto = [sucursal_1, sucursal_2, sucursal_3]
 
 for Conjunto in Datos_conjunto:
     verificacion = Conjunto.issubset(C_empresa)
-    print("El conjunto", Conjunto, "es subconjunto de C_empresa:", verificacion)
+    print("\n El conjunto", Conjunto, "es subconjunto de C_empresa:", verificacion)
+
+# Fin del codigo 
