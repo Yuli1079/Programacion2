@@ -1,13 +1,12 @@
 import os
 os.system("cls")
 
-        # Conjuntos
+# Conjuntos
         
-'''los conjuntos son  grupos de elementos desordenado donde no puede haber duplicados'''
+#los conjuntos son  grupos de elementos desordenado donde no puede haber duplicados
 #'''
-conjunto = {}  #esto es un diccionario
+conjunto = {}  #esto es un conjunto 
 conjunto = set(conjunto) # este si es un conjunto
-
 conjunto = {1,2,3, 'hola mundo', 5.24} # los conjuntos pueden contener todo tipo de variables
 
 #conjunto = {1,2,3, 'hola mundo', 5.24, [1, 2, 3]} # sin embargo no pueden contener objetos mutables
@@ -26,11 +25,6 @@ conjunto.discard(2) # con este puedo remorer un elemento (existente) no error
 
 print(conjunto)
 
-<<<<<<< HEAD
-=======
-#print(5 in conjunto) # comprobar elementos del conjunto
-
->>>>>>> 13271713ca63e93050c1d922bec84df35ee1a2c1
 
 #conjunto.clear() # limpar el conjunto
 #print(conjunto) 
